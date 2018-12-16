@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rl_menu_or_cat"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/margin_15dp"
+    android:layout_marginRight="@dimen/margin_15dp"
+    android:background="?android:attr/selectableItemBackground">
+
+    <ImageView
+        android:id="@+id/img_category_icon"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="@dimen/margin_15dp"
+        android:layout_marginTop="@dimen/margin_15dp"
+        tools:src="@drawable/ic_menu"/>
+
+    <ImageView
+        android:id="@+id/the_next"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ic_next"/>
+
+    <TextView
+        android:id="@+id/each_category_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/margin_20dp"
+        android:layout_toLeftOf="@id/the_next"
+        android:layout_toRightOf="@id/img_category_icon"
+        android:textSize="15sp"
+        tools:text="Test Text"/>
+
+    <View
+        android:id="@+id/viewDivider"
+        android:layout_width="match_parent"
+        android:layout_height="0.7dp"
+        android:layout_below="@id/img_category_icon"
+        android:background="@color/toolbar_boarder"/>
+
+</RelativeLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBoxPreference
+        android:key="perf_notification"
+        android:title="@string/pref_notification_title"
+        android:summary="@string/pref_notification_summ"
+        android:defaultValue="true" />
+
+
+    <ListPreference
+        android:key="pref_font_size"
+        android:title="@string/pref_text_title"
+        android:dialogTitle="@string/select_size"
+        android:entries="@array/text_entries"
+        android:entryValues="@array/text_entries"
+        android:defaultValue="@string/default_text" />
+
+
+</PreferenceScreen>

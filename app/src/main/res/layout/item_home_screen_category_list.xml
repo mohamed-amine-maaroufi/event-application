@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/margin_8dp"
+    android:layout_marginRight="@dimen/margin_8dp"
+    android:layout_marginTop="@dimen/margin_8dp"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/category_item_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rectangle_blue"
+        android:paddingLeft="@dimen/margin_8dp"
+        android:paddingRight="@dimen/margin_8dp"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        tools:text="T" />
+
+</RelativeLayout>

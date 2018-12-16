@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <!-- Recommended icon color code: #828282 -->
+        <item
+            android:id="@+id/action_home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/site_menu_home"/>
+
+
+
+        <item
+            android:id="@+id/action_categories"
+            android:icon="@drawable/ic_category1"
+            android:title="@string/site_menu_categories"/>
+
+        <item
+            android:id="@+id/action_favourite"
+            android:icon="@drawable/ic_bookmark"
+            android:title="@string/site_menu_favourite"/>
+
+
+
+    </group>
+
+    <item android:title="@string/social">
+        <menu>
+
+            <item
+                android:id="@+id/action_facebook"
+                android:icon="@drawable/ic_facebook"
+                android:title="@string/facebook"/>
+
+            <item
+                android:id="@+id/action_instagram"
+                android:icon="@drawable/ic_instagram"
+                android:title="@string/instagram"/>
+        </menu>
+    </item>
+
+    <item android:title="@string/support">
+        <menu>
+            <item
+                android:id="@+id/action_call"
+                android:icon="@drawable/ic_call"
+                android:title="@string/call"/>
+
+            <item
+                android:id="@+id/action_message"
+                android:icon="@drawable/ic_message"
+                android:title="@string/message"/>
+
+            <item
+                android:id="@+id/action_messenger"
+                android:icon="@drawable/ic_messenger"
+                android:title="@string/messenger"/>
+
+            <item
+                android:id="@+id/action_email"
+                android:icon="@drawable/ic_email"
+                android:title="@string/email"/>
+        </menu>
+    </item>
+
+    <item android:title="@string/others">
+        <menu>
+          <!-- <item
+                android:id="@+id/terms_conditions"
+                android:icon="@drawable/ic_terms_conditions"
+                android:title="@string/terms"/>
+
+            <item
+                android:id="@+id/privacy_policy"
+                android:icon="@drawable/ic_privacy_policy"
+                android:title="@string/privacy"/>
+
+            <item
+                android:id="@+id/faq"
+                android:icon="@drawable/ic_faq"
+                android:title="@string/faq"/>
+            -->
+            <item
+                android:id="@+id/action_share"
+                android:icon="@drawable/ic_share"
+                android:title="@string/share"/>
+
+            <item
+                android:id="@+id/action_rate_app"
+                android:icon="@drawable/ic_rating"
+                android:title="@string/rate"/>
+
+            <item
+                android:id="@+id/action_settings"
+                android:icon="@drawable/ic_settings"
+                android:title="@string/settings"/>
+
+            <item
+                android:id="@+id/action_exit"
+                android:icon="@drawable/ic_exit"
+                android:title="@string/exit"/>
+        </menu>
+    </item>
+
+</menu>

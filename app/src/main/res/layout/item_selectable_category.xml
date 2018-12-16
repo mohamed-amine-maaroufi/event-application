@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rl_home_cat"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/margin_15dp"
+    android:layout_marginRight="@dimen/margin_15dp"
+    android:background="?android:attr/selectableItemBackground">
+
+    <ImageButton
+        android:id="@+id/btn_drag_n_drop"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="@dimen/margin_15dp"
+        android:layout_marginTop="@dimen/margin_15dp"
+        android:adjustViewBounds="true"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:padding="@dimen/margin_10dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_drag_n_drop"/>
+
+    <CheckBox
+        android:id="@+id/selection_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/margin_15dp"/>
+
+    <TextView
+        android:id="@+id/each_category_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/margin_20dp"
+        android:layout_toLeftOf="@id/the_next"
+        android:layout_toRightOf="@id/btn_drag_n_drop"
+        android:textSize="15sp"
+        tools:text="Test Text"/>
+
+    <View
+        android:id="@+id/viewDivider"
+        android:layout_width="match_parent"
+        android:layout_height="0.7dp"
+        android:layout_below="@id/btn_drag_n_drop"
+        android:background="@color/toolbar_boarder"/>
+
+</RelativeLayout>

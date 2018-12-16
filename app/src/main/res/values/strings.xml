@@ -1,0 +1,147 @@
+<resources>
+
+    <!-- app ad section -->
+    <string name="app_ad_id"></string>
+    <string name="banner_ad_unit_id"></string>
+    <string name="interstitial_ad_unit_id"></string>
+    <!-- end of the ad section -->
+
+    <!-- app social site links section -->
+    <string name="facebook_url">https://www.facebook.com/blasti.net/</string>
+    <string name="youtube_url">https://www.youtube.com/channel/UCKwCrwEBuDUHRswgoXpf1dg</string>
+    <string name="twitter_user_id">twitter://user?user_id=742143</string> <!-- find your user id from here: http://gettwitterid.com/  -->
+    <string name="twitter_url">https://twitter.com/cite_culture</string>
+    <string name="instagram_url">https://www.instagram.com/cite.culture.tunisie/</string>
+
+    <!-- terms and conditions, privacy policy and faq url -->
+    <string name="terms_url">https://docs.google.com/document/d/e/2PACX-1vTM3_XR_tVLPFP5-Q5maOhZnKYfjVxSriWE3zi7rvr28kl7myJYcKLvWDdfkcJAxKvLNzjU_nTn5W4-/pub</string>
+    <string name="privacy_url">https://docs.google.com/document/d/e/2PACX-1vTCEY7RKGcT_1s21-qQ6zcPeyVZygW-OlKjZw4CL58_1EacncfEXsnHP3weXw2czrU9q5cg2sJxL2pw/pub</string>
+    <string name="faq_url">https://docs.google.com/document/d/e/2PACX-1vQZQg-db5an_DJy6WZMzPOfKCLJy1tu_QbvEKKJfs0K7tBiOdHzxegsM6b9N0i-Ip0hRwxDZrKD4HuK/pub</string>
+
+
+    <!-- app name -->
+    <string name="app_name">Blasti</string>
+    <string name="tagline">Blasti</string>
+
+    <string name="site_menu_home">Accueil</string>
+    <string name="site_menu_menus">Menus</string>
+    <string name="site_menu_categories">Categories</string>
+    <string name="site_menu_favourite">Favoris</string>
+    <string name="site_menu_home_cat">Accueil Categories</string>
+
+    <string name="social">Social</string>
+    <string name="youtube">YouTube</string>
+    <string name="facebook">Facebook</string>
+    <string name="twitter">Twitter</string>
+    <string name="instagram">Instagram</string>
+    <string name="reserver">Réserver</string>
+
+    <string name="support">Support</string>
+    <string name="call">Appel</string>
+    <string name="message">Message</string>
+    <string name="messenger">ChatBot</string>
+    <string name="email">Email</string>
+
+
+    <string name="terms">Terms and Conditions</string>
+    <string name="privacy">Privacy Policy</string>
+    <string name="faq">FAQ</string>
+    <string name="share">Partage</string>
+    <string name="rate">Notez App</string>
+    <string name="settings">Paramétres</string>
+    <string name="exit">Quitter</string>
+    <!-- end of the site configuration section-->
+
+    <!-- app link declaration for the site: https://mccltd.info/projects/news-app/ -->
+    <string name="app_link_base_url">http://www.hosni.tn/blasti/</string>
+    <string name="app_link_path_prefix">/projects/news-app/</string>
+    <!-- end of the app link section -->
+
+
+    <string name="featured_posts">Postes en vedette</string>
+    <string name="see_more">Voir plus</string>
+    <string name="recent_posts">Publications récentes</string>
+    <string name="favourite">Favoris</string>
+    <string name="category_list">Categories</string>
+    <string name="home_cat_list">Accueil Categories</string>
+    <string name="menu_list">Menus</string>
+    <string name="loadmore">Chargement de plus des articles, veuillez patienter ...</string>
+    <string name="details">Détail de poste</string>
+
+
+    <string name="post_list">Liste de publication</string>
+    <string name="tapAgain">Appuyez à nouveau pour quitter!</string>
+    <string name="no_internet">Pas d\'internet!</string>
+    <string name="connect">Connectez</string>
+    <string name="others">Autres</string>
+    <string name="search">Recherche</string>
+    <string name="refresh">Actualisez</string>
+    <string name="close">Fermez</string>
+    <string name="says">Disez: </string>
+    <string name="comments">Commenteres: </string>
+    <string name="comment_list">Liste de commentaires</string>
+    <string name="write_a_comment">Écrivez quelque chose...</string>
+    <string name="reply">Répondre</string>
+    <string name="comment_details">Détail du commentaire</string>
+    <string name="welcome_message">Bonjour</string>
+    <string name="successful_reply">Répondu avec succès!</string>
+    <string name="error_message">Désolé, des erreurs sont survenues!</string>
+    <string name="successful_comment">Commenté avec succès!</string>
+    <string name="custom_link">Lien personnalisé</string>
+    <string name="permission_not_granted">Permission non accordée!</string>
+
+
+    <string name="empty_result">Pas de données!</string>
+    <string name="openDrawer">Open Drawer</string>
+    <string name="closeDrawer">Close Drawer</string>
+
+    <string name="share_text">Installer notre application:</string>
+    <string name="send_to">Envoyer à: </string>
+
+    <string name="close_prompt">Êtes-vous sûr de vouloir fermer l\'application?</string>
+    <string name="yes">Oui</string>
+    <string name="no">Non</string>
+
+    <string name="install_messenger">Installer Facebook Messenger</string>
+    <string name="tts_wait_msg">Cet article sera lu en bref. S\'il vous plaît attendez un moment ...</string>
+    <string name="tts_install_msg">S\'il vous plaît installer le paquet en anglais à partir d\'ici</string>
+
+
+    // Notification
+    <string name="pref_notification_title">Notification</string>
+    <string name="pref_notification_summ">Activer/désactiver la notification</string>
+    <string name="pref_zoom_title">Zoom Controller</string>
+    <string name="pref_zoom_summ">Enable zoom controller to zoom in/out pages</string>
+    <string name="pref_text_title">Taille du texte</string>
+    <string name="select_size">Sélectionnez la taille du texte</string>
+    <string name="delete_notify_msg">Voulez-vous supprimer cette notification?</string>
+    <string name="delete_all_notify_msg">Voulez-vous supprimer toutes les notifications?</string>
+    <string name="empty_list">La liste est déjà vide!</string>
+
+    <string name="small_text">Petit</string>
+    <string name="default_text">Normal</string>
+    <string name="large_text">Grand</string>
+
+    <string name="matches">matches</string>
+    <string name="placeholder">..</string>
+    <string name="notifications">Notifications</string>
+    <string name="read_post">Lire la publication</string>
+    <string name="notification_title">Titre de la notification: </string>
+    <string name="notification_details">Détail de la notification:</string>
+
+    <string name="failed">Échoué</string>
+
+    <string name="comment_reply">Répondre</string>
+    <string name="comment_replies">Réponses</string>
+
+    <string name="admin">Admin</string>
+    <string name="default_str">Défaut</string>
+    <string name="author_name">Moi</string>
+
+    <string name="all_comment">Tous les commentaires (%d)</string>
+
+    <string name="delete_fav_item">Voulez-vous supprimer cette publication de la liste des favoris?</string>
+    <string name="delete_all_fav_item">Voulez-vous supprimer tous les articles de la liste des favoris?</string>
+    <string name="delete_all">Supprimer tout</string>
+
+</resources>

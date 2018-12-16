@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="text_entries">
+        <item>@string/small_text</item>
+        <item>@string/default_text</item>
+        <item>@string/large_text</item>
+    </string-array>
+
+</resources>

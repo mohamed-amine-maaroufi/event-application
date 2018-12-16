@@ -1,0 +1,66 @@
+{
+  "project_info": {
+    "project_number": "962573414651",
+    "firebase_url": "https://mcc-ltd.firebaseio.com",
+    "project_id": "mcc-ltd",
+    "storage_bucket": "mcc-ltd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:962573414651:android:62d5cdb3c2eee8e7",
+        "android_client_info": {
+          "package_name": "com.tn.blasti"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "962573414651-erg0o0vql8ub8g09fn425h3unp1vk7ma.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tn.blasti",
+            "certificate_hash": "f69a1656c802583dab8f432ade3e05b157b97743"
+          }
+        },
+        {
+          "client_id": "962573414651-4p0t2v5k56p0q2tmkm85rllosphdu68e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9oaCbXwd2hXMrbvRKarQ8Nml7ir1RFLc"
+        },
+        {
+          "current_key": "AIzaSyCeHYLdJHJOmLMxbJZfA541ucyPHkoEh10"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "962573414651-4p0t2v5k56p0q2tmkm85rllosphdu68e.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "962573414651-gt408okp85h608e68i6qjau8memm05mq.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mcc.Web-to-App",
+                "app_store_id": "1290744859"
+              }
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
